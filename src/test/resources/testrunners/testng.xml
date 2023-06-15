@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Countable Regression Suite">
+
+<listeners>
+		
+			<listener class-name="com.qa.countable.listeners.ExtentTestNGTestListener"></listener>
+		
+	</listeners>
+  <test name="Countable functional Test">
+    <classes>
+    
+    
+      <class name="com.qa.countable.tests.DashboardTest"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
