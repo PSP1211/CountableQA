@@ -11,7 +11,7 @@
     <classes>
     
     
-      <class name="com.qa.countable.tests.DashboardTest"/>
+      <class name="com.qa.countable.tests.LoginPageTest"/>
      
       
     </classes>
